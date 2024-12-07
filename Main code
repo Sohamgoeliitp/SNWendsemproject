@@ -234,3 +234,109 @@
         
         <p>Give it a try and see the power of citrus for yourself!</p>
       </section>
+
+      <section id="density-tower-experiment">
+        <div class="experiment-content">
+          <h2>Experiment 3: Density Tower</h2>
+          <h3>Build a Tower of Liquids!</h3>
+          <p>Ever wondered why some objects float while others sink? In this experiment, you’ll create a colorful tower using different liquids like honey, water, and oil. Each liquid has a different density, which allows them to stack in layers. You’ll also test how objects float or sink depending on their density.</p>
+      
+          <h3>What You’ll Need</h3>
+          <ul>
+            <li><strong>Clear glass or container:</strong> To see the layers clearly.</li>
+            <li><strong>Honey or syrup:</strong> The densest layer.</li>
+            <li><strong>Water:</strong> Add food coloring for fun!</li>
+            <li><strong>Cooking oil:</strong> A lighter liquid for the upper layer.</li>
+            <li><strong>Optional liquids:</strong> Rubbing alcohol, milk, or dish soap for more layers.</li>
+            <li><strong>Small objects:</strong> Examples include a coin, grape, ping-pong ball, paperclip, and bead.</li>
+            <li><strong>Spoon or pipette:</strong> To carefully add the liquids.</li>
+          </ul>
+      
+          <h3>Steps to Follow</h3>
+          <ol>
+            <li><strong>Prepare Your Liquids:</strong>
+              <ul>
+                <li>Pour each liquid into a separate cup. You can add food coloring to water or rubbing alcohol to make them colorful and easy to identify.</li>
+              </ul>
+            </li>
+            <li><strong>Layer the Liquids:</strong>
+              <ul>
+                <li>Start by pouring the heaviest liquid (honey or syrup) into the container.</li>
+                <li>Slowly and gently add the next liquid (like colored water) by pouring it over the back of a spoon.</li>
+                <li>Continue adding layers with lighter liquids, like oil, until your tower is complete.</li>
+              </ul>
+            </li>
+            <li><strong>Test Object Buoyancy:</strong>
+              <ul>
+                <li>Drop small objects into the density tower one at a time. Watch where they settle in the layers and take note of their position.</li>
+              </ul>
+            </li>
+          </ol>
+      
+          <h3>What’s Happening?</h3>
+          <p>Here’s the science behind it:</p>
+          <ul>
+            <li><strong>Density</strong> refers to how much “stuff” is packed into a space. Heavier liquids like honey have more density and sink to the bottom, while lighter liquids like oil stay on top.</li>
+            <li>Objects float or sink based on their density compared to the liquid they are in. A ping-pong ball floats on oil but sinks in water, while a coin sinks to the bottom.</li>
+          </ul>
+      
+          <h3>Try These Fun Variations</h3>
+          <ul>
+            <li>Add more liquids, like dish soap or rubbing alcohol, to create more layers.</li>
+            <li>Predict where each object will settle before dropping it in.</li>
+            <li>Stir the liquids gently and watch them slowly separate back into layers over time.</li>
+          </ul>
+      
+          <h3>Tips for Success</h3>
+          <ul>
+            <li>Pour liquids slowly to avoid mixing them. Using the back of a spoon helps control the flow.</li>
+            <li>Use clear containers for the best visual effect.</li>
+            <li>Clean up spills immediately to avoid sticky messes.</li>
+          </ul>
+      
+          <h3>Why It’s Cool</h3>
+          <p>This experiment is a fantastic way to explore the concept of density. It’s colorful, easy to set up, and helps you understand why some objects float while others sink. Plus, it’s a great science fair project that’s sure to grab attention!</p>
+        </div>
+        <img src="images/density-tower.jpeg" alt="Density Tower Experiment" class="experiment-image" width="300px">
+      </section>
+
+      <section id="electromagnet-test">
+        <div class="experiment-content">
+          <h2>Experiment 4: Electromagnet Strength Test</h2>
+          <h3>Explore Magnetic Power!</h3>
+          <p>Have you ever wondered how magnets can be made with electricity? In this experiment, you’ll create an electromagnet using a nail, wire, and battery. By changing the number of wire coils around the nail, you’ll test how it affects the magnet’s strength.</p>
+          <h3>What You’ll Do</h3>
+          <p>Build a simple electromagnet and test how its strength changes based on the number of wire coils wrapped around the nail. This will give you insight into the relationship between electricity and magnetism.</p>
+          <h3>What You’ll Need</h3>
+          <ul>
+            <li>Iron nail (3–4 inches long)</li>
+            <li>Insulated copper wire (3–4 feet long)</li>
+            <li>Battery (D-cell or 9V)</li>
+            <li>Paper clips or small metal objects</li>
+            <li>Electrical tape</li>
+          </ul>
+          <h3>Steps to Follow</h3>
+          <ol>
+            <li><strong>Wrap the Wire Around the Nail:</strong> Coil the wire tightly around the nail, leaving 3 inches free on each end.</li>
+            <li><strong>Connect to the Battery:</strong> Strip insulation from the wire ends and attach them to the battery terminals.</li>
+            <li><strong>Test Your Electromagnet:</strong> Use the magnet to pick up paper clips or metal objects.</li>
+            <li><strong>Experiment with More Coils:</strong> Add more coils and observe changes in magnetic strength.</li>
+          </ol>
+          <h3>What’s Happening?</h3>
+          <p>Electricity flowing through the wire creates a magnetic field, turning the nail into an electromagnet. More coils increase the magnetic field's concentration and strength.</p>
+          <h3>Try These Fun Variations</h3>
+          <ul>
+            <li>Test different battery voltages.</li>
+            <li>Use nails of different sizes.</li>
+            <li>Measure magnet strength with a spring scale.</li>
+          </ul>
+          <h3>Tips for Success</h3>
+          <ul>
+            <li>Use fresh batteries for better results.</li>
+            <li>Ensure coils are tightly wrapped.</li>
+            <li>Disconnect the battery when not in use.</li>
+          </ul>
+          <p><strong>Why It’s Cool:</strong> Learn how electricity creates magnetic fields, a principle used in many modern technologies!</p>
+        </div>
+      </section>
+       
