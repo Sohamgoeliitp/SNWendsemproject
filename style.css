@@ -145,3 +145,203 @@ main section {
   margin: 1rem 0;
 }
 
+.difficulty, .duration {
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.try-button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.try-button:hover {
+  background: var(--accent-color);
+  transform: scale(1.05);
+}
+
+.experiment {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.experiment:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.experiment h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+#volcano-experiment, #lemon-battery, #density-tower, #electromagnet-test, #water-purification {
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.experiment-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.experiment-content {
+  flex: 2;
+}
+
+.experiment-image {
+  flex: 1;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .experiment-container {
+    flex-direction: column;
+  }
+  .experiment-image {
+    margin-top: 1rem;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .experiment-grid {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}
+
+footer {
+  background: linear-gradient(135deg, var(--text-color), #2c3e50);
+  color: #fff;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: Bulletto;
+  src: url(Beautiful\ Dream.otf);
+}
+
+header.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  z-index: 1000;
+  height: 4rem;
+}
+
+.nav .logo {
+  position: relative;
+  font-size: 1.5rem;
+  font-family: Bulletto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+}
+
+.nav .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  padding: 0 2rem 0 0;
+  gap: 2rem;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.2s ease-in-out, transform 0.2s ease;
+}
+
+.links a:hover {
+  transform: scale(1.1);
+  color: rgb(67, 207, 232);
+}
+
