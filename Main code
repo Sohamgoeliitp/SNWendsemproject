@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Science Fair Experiments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Science Fair Experiments</h1>
+    <p>Explore amazing experiments and learn how science works!</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#experiments">Experiments</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Welcome to our science fair project showcase. Here, we explore fun and educational experiments that ignite curiosity and inspire learning.</p>
+    </section>
+    <section id="experiments">
+      <h2>Amazing Science Experiments</h2>
+      <div class="experiment-grid">
+        <div class="experiment-card">
+          <div class="experiment-icon">🌋</div>
+          <h3>Volcano Eruption</h3>
+          <p>Witness a simulated volcanic eruption using baking soda and vinegar.</p>
+          <div class="experiment-details">
+            <span class="difficulty">Easy</span>
+            <span class="duration">30 mins</span>
+          </div>
+          <button class="try-button">Try This!</button>
+        </div>
+
+        <div class="experiment-card">
+          <div class="experiment-icon">⚡</div>
+          <h3>Lemon Battery</h3>
+          <p>Generate electricity using lemons, copper coins, and zinc nails to power an LED.</p>
+          <div class="experiment-details">
+            <span class="difficulty">Medium</span>
+            <span class="duration">45 mins</span>
+          </div>
+          <button class="try-button">Try This!</button>
+        </div>
+
+        <div class="experiment-card">
+          <div class="experiment-icon">🔬</div>
+          <h3>Density Tower</h3>
+          <p>Create a layered tower of liquids and test object buoyancy.</p>
+          <div class="experiment-details">
+            <span class="difficulty">Medium</span>
+            <span class="duration">40 mins</span>
+          </div>
+          <button class="try-button">Try This!</button>
+        </div>
+
+        <div class="experiment-card">
+          <div class="experiment-icon">🧲</div>
+          <h3>Electromagnet Test</h3>
+          <p>Build an electromagnet and test its strength with different coil configurations.</p>
+          <div class="experiment-details">
+            <span class="difficulty">Hard</span>
+            <span class="duration">60 mins</span>
+          </div>
+          <button class="try-button">Try This!</button>
+        </div>
+
+        <div class="experiment-card">
+          <div class="experiment-icon">💧</div>
+          <h3>Water Purification</h3>
+          <p>Create a water filtration system using natural materials.</p>
+          <div class="experiment-details">
+            <span class="difficulty">Medium</span>
+            <span class="duration">50 mins</span>
+          </div>
+          <button class="try-button">Try This!</button>
+        </div>
+      </div>
+    </section>
+    <section id="volcano-experiment">
+        <div class="experiment-content">
+            <h2>Experiment 1: Create Your Own Erupting Volcano!</h2>
+            
+            <p>Have you ever wondered how a volcano erupts? Now, you can create one at home using simple materials you probably already have in your kitchen! This fun and easy experiment will not only amaze you but also teach you some cool science.</p>
+            
+            <h3>What You’re Making</h3>
+            <p>We’re going to build a volcano and make it erupt using a fizzy reaction between baking soda and vinegar. The bubbly "lava" looks just like a real volcanic explosion (but don’t worry, it’s completely safe).</p>
+            
+            <h3>What You Need</h3>
+            <ul>
+            <li><strong>Baking Soda:</strong> About 2–3 spoonfuls.</li>
+            <li><strong>Vinegar:</strong> Half a cup will do.</li>
+            <li><strong>Dish Soap:</strong> Just a few drops to make extra bubbly lava.</li>
+            <li><strong>Food Coloring:</strong> Red and yellow make your lava look fiery!</li>
+            <li><strong>Plastic Bottle:</strong> To serve as the volcano's crater.</li>
+            <li><strong>Clay or Papier-Mâché:</strong> To build the volcano structure.</li>
+            <li><strong>Tray:</strong> To catch the mess from the eruption.</li>
+            </ul>
+            
+            <h3>Procedure</h3>
+            <ol>
+            <li>
+                <strong>Build Your Volcano:</strong>
+                <ul>
+                <li>Use clay, papier-mâché, or play dough to shape a volcano around a plastic bottle or cup.</li>
+                <li>Leave the top of the bottle open to act as the crater.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Get Your Volcano Ready for Action:</strong>
+                <ul>
+                <li>Place the volcano on a tray (trust us, it gets messy).</li>
+                <li>Add 2–3 spoonfuls of baking soda inside the bottle.</li>
+                <li>Drop a few drops of dish soap for extra foam.</li>
+                <li>Add red and yellow food coloring for fiery lava.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Time to Erupt!</strong>
+                <ul>
+                <li>Pour in half a cup of vinegar and step back.</li>
+                <li>Watch your volcano erupt with bubbly, colorful "lava"!</li>
+                </ul>
+            </li>
+            </ol>
+            
+            <h3>What’s Happening?</h3>
+            <p>Here’s the science part:</p>
+            <ul>
+            <li>Baking soda (a base) reacts with vinegar (an acid) to produce carbon dioxide gas.</li>
+            <li>The gas bubbles push the liquid up and out, simulating a volcanic eruption.</li>
+            </ul>
+            
+            <h3>Extra Fun Ideas</h3>
+            <ul>
+            <li>Experiment with different amounts of vinegar to change the eruption intensity.</li>
+            <li>Research real volcanoes and compare them with your model.</li>
+            <li>Try testing different "lava recipes" to see what works best.</li>
+            </ul>
+            
+            <h3>Quick Tips</h3>
+            <ul>
+            <li>Perform this experiment outside or on a tray for easier cleanup.</li>
+            <li>Ask an adult for help if needed.</li>
+            </ul>
+            
+            <p><strong>Why It’s Awesome:</strong> This experiment is fun, educational, and a great way to learn about chemical reactions. Perfect for school projects or just for fun!</p>
+        </div>
+        <img src="images/vol1.jpeg" alt="Volcano Eruption Experiment" class="experiment-image" width="300px">
+      </section>
+      
+
+    </section>
+
+
+    <section id="lemon-battery">
+        <h2>Experiment 2: Lemon Battery Experiment</h2>
+        <h3>Make Electricity with Lemons!</h3>
+        
+        <p>Did you know you can use lemons to create electricity? In this fun experiment, you’ll learn how to turn ordinary lemons into tiny batteries that can power a small device, like an LED light or a digital clock.</p>
+        
+        <h3>What You’ll Do</h3>
+        <p>You’re going to use the acidic juice inside lemons to create a simple electrical circuit. The reaction between copper, zinc, and lemon juice generates electricity. This will help you understand how real batteries work!</p>
+        
+        <h3>What You’ll Need</h3>
+        <ul>
+          <li><strong>Lemons:</strong> 2–3 fresh ones (the juicier, the better).</li>
+          <li><strong>Copper coins or strips:</strong> These act as the positive terminal of the battery.</li>
+          <li><strong>Zinc nails or screws:</strong> These are the negative terminal.</li>
+          <li><strong>Wires or alligator clips:</strong> To connect the lemons together.</li>
+          <li><strong>A small LED light or clock:</strong> To show the battery in action.</li>
+          <li><strong>A knife or scissors:</strong> To make small cuts in the lemons (get an adult’s help).</li>
+        </ul>
+        
+        <h3>Steps to Follow</h3>
+        <ol>
+          <li>
+            <strong>Prepare Your Lemons:</strong>
+            <ul>
+              <li>Roll the lemons on a table to release their juice inside.</li>
+              <li>Make two small cuts in each lemon—one for the copper piece and one for the zinc nail.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Set Up Your Electrodes:</strong>
+            <ul>
+              <li>Insert a copper coin or strip into one cut and a zinc nail into the other.</li>
+              <li>Ensure they don’t touch inside the lemon.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Connect the Lemons:</strong>
+            <ul>
+              <li>Use wires or alligator clips to link the zinc nail in one lemon to the copper in the next.</li>
+              <li>This creates a chain of lemons.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Power Something Small:</strong>
+            <ul>
+              <li>Attach the free zinc nail and copper strip at the ends of your lemon chain to an LED light or clock.</li>
+              <li>Watch as your lemon battery brings it to life!</li>
+            </ul>
+          </li>
+        </ol>
+        
+        <h3>What’s Happening?</h3>
+        <p>Here’s the science behind it:</p>
+        <ul>
+          <li>Lemons have citric acid, which acts like a liquid that helps electricity flow (called an electrolyte).</li>
+          <li>The zinc reacts with the acid and releases electrons (tiny particles that create electricity).</li>
+          <li>The copper collects these electrons, and when they flow through the wires, they create electricity to power your device.</li>
+        </ul>
+        
+        <h3>Try These Fun Variations</h3>
+        <ul>
+          <li>Test other fruits or vegetables (like potatoes or oranges) to see if they work as batteries.</li>
+          <li>Add more lemons to your chain and see if you can power a bigger device.</li>
+          <li>Use a multimeter to measure how much voltage your battery generates.</li>
+        </ul>
+        
+        <h3>Tips for Success</h3>
+        <ul>
+          <li>Make sure the copper and zinc don’t touch inside the lemon—it won’t work if they do.</li>
+          <li>Fresh, juicy lemons produce more electricity.</li>
+          <li>Be careful when using sharp objects and ask an adult for help.</li>
+        </ul>
+        
+        <h3>Why It’s Cool</h3>
+        <p>This experiment is a simple way to understand how electricity and batteries work. Plus, it’s an exciting project to show off at school or to friends and family. Who knew lemons could do so much?</p>
+        
+        <p>Give it a try and see the power of citrus for yourself!</p>
+      </section>
