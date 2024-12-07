@@ -1,3 +1,4 @@
+/* Modern Color Palette */
 :root {
   --primary-color: #2196F3;
   --secondary-color: #03A9F4;
@@ -8,10 +9,10 @@
 }
 
 body, h1, h2, h3, p, ul, li, a {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -21,6 +22,7 @@ body {
   transition: all 0.3s ease;
 }
 
+/* Enhanced Header with Animation */
 header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
@@ -42,6 +44,7 @@ header p {
   animation-delay: 0.5s;
 }
 
+/* Navigation */
 nav ul {
   display: flex;
   justify-content: center;
@@ -71,6 +74,7 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
+/* Main Section */
 main {
   padding: 2rem;
 }
@@ -79,6 +83,7 @@ main section {
   margin-bottom: 2rem;
 }
 
+/* Experiment Section Styling */
 #experiments h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -170,6 +175,14 @@ main section {
   transform: scale(1.05);
 }
 
+/* Experiment Grid */
+.experiment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+/* Enhanced Experiment Cards */
 .experiment {
   background: var(--card-bg);
   padding: 1.5rem;
@@ -190,41 +203,72 @@ main section {
   font-size: 1.4rem;
 }
 
-#volcano-experiment, #lemon-battery, #density-tower, #electromagnet-test, #water-purification {
+/* Experiment Sections */
+#volcano-experiment {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+#lemon-battery {
+  background: linear-gradient(to right, #f6d365, #fda085);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+#density-tower {
+  background: linear-gradient(to right, #73e1b5, #1ac97a);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+#electromagnet-test {
+  background: linear-gradient(to right, #e184eb, #97238c);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+#water-purification {
+  background: linear-gradient(to right, #61c364, #13a933);
   padding: 2rem;
   border-radius: 12px;
   margin: 2rem 0;
 }
 
 .experiment-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.experiment-content {
-  flex: 2;
-}
-
-.experiment-image {
-  flex: 1;
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-  .experiment-container {
-    flex-direction: column;
+    display: flex;
+    align-items: flex-start; /* Aligns content and image at the top */
+    gap: 1.5rem; /* Adds space between the text and image */
+    margin-bottom: 2rem; /* Adds spacing below each experiment section */
   }
+  
+  .experiment-content {
+    flex: 2; /* Makes the text container take up more space */
+  }
+  
   .experiment-image {
-    margin-top: 1rem;
+    flex: 1; /* Restricts the image size */
+    width: 100%; /* Makes the image responsive */
+    max-width: 300px; /* Prevents the image from becoming too large */
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
   }
-}
+  
+  @media (max-width: 768px) {
+    .experiment-container {
+      flex-direction: column; /* Stacks the text and image vertically on smaller screens */
+    }
+    .experiment-image {
+      margin-top: 1rem; /* Adds space above the image in vertical layout */
+    }
+  }
 
+/* New Animation */
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -234,6 +278,7 @@ main section {
   }
 }
 
+/* Animations */
 @keyframes slideDown {
   from {
     transform: translateY(-50px);
@@ -254,23 +299,40 @@ main section {
   }
 }
 
+/* Responsive Design Improvements */
 @media (max-width: 768px) {
   header h1 {
     font-size: 2rem;
   }
+  
   .experiment-grid {
     grid-template-columns: 1fr;
     padding: 0.5rem;
   }
+  
   nav ul {
     flex-direction: column;
     align-items: center;
   }
+  
   nav ul li {
     margin: 0.5rem 0;
   }
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .experiment-grid {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+  
+  .experiment-card {
+    margin: 0.5rem;
+  }
+}
+
+/* Footer Enhancement */
 footer {
   background: linear-gradient(135deg, var(--text-color), #2c3e50);
   color: #fff;
@@ -278,70 +340,73 @@ footer {
   margin-top: 3rem;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+
+
+/* this is the tool bar */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 @font-face {
-  font-family: Bulletto;
-  src: url(Beautiful\ Dream.otf);
+    font-family: Bulletto;
+    src: url(Beautiful\ Dream.otf);
 }
 
 header.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  padding: 20px;
-  z-index: 1000;
-  height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    z-index: 1000;
+    height: 4rem;
 }
 
 .nav .logo {
-  position: relative;
-  font-size: 1.5rem;
-  font-family: Bulletto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 50px;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: Bulletto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
 }
 
 .nav .logo a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .links {
-  display: flex;
-  justify-content: end;
-  padding: 0 2rem 0 0;
-  gap: 2rem;
+    display: flex;
+    justify-content: end;
+    padding: 0 2rem 0 0;
+    gap: 2rem;
 }
 
 .links a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: color 0.2s ease-in-out, transform 0.2s ease;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.2s ease-in-out, transform 0.2s ease;
 }
 
 .links a:hover {
-  transform: scale(1.1);
-  color: rgb(67, 207, 232);
+    transform: scale(1.1);
+    color: rgb(67, 207, 232);
 }
-
