@@ -1,10 +1,11 @@
+/* Modern Color Palette */
 :root {
   --primary-color: #2196F3;
-  --secondary-color: #03A9F4;
+  --secondary-color: rgb(3, 169, 244);
   --accent-color: #FF4081;
   --background-color: #f8f9fa;
-  --text-color: #212529;
-  --card-bg: #ffffff;
+  --text-color: #ffffff;
+  --card-bg: rgb(0, 0, 0);
 }
 
 body, h1, h2, h3, p, ul, li, a {
@@ -19,13 +20,33 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   transition: all 0.3s ease;
+  background-color: black;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 140px;
+  background-color: #fbe201;
+  width: 95%;
+  border-radius: 20px;
+  margin-left: 2.5%;
+}
+
+#vid {
+  object-fit: fill;
+  box-shadow: 0px 0px 50px rgb(250, 242, 0);
+  border-radius: 20px;
+}
+
 
 /* Enhanced Header with Animation */
 header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -103,7 +124,7 @@ main section {
   border-radius: 15px;
   padding: 1.5rem;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 15px rgb(3, 169, 244);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -111,8 +132,105 @@ main section {
 
 .experiment-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 45px rgb(213, 13, 13);
 }
+.experiment-card:not(:hover) {
+  opacity: calc(50);
+}
+
+#volexp:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 45px rgb(253, 85, 1);
+}
+
+#lemexp:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 45px rgb(255, 251, 0);
+}
+
+#denexp:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 45px rgb(159, 159, 159);
+}
+#eleexp:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 45px rgb(182, 1, 248);
+}
+
+.Quotes {
+  background-color: rgb(0, 0, 0);
+  height: 400px;
+  width: 95%;
+  margin-left: 2.5%;
+  border: 3px solid white;
+  box-shadow: 0 15px 15px rgb(4, 247, 255);
+  border-radius: 20px;
+}
+.quote-container {
+  position: relative;
+  width: 90%;  
+  height: 300px;  
+  overflow: hidden;
+  margin: 50px auto;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  font-size: 38px;
+  font-style: italic;
+  text-align: center;
+  background-color: black;
+}
+
+.quote {
+  margin-top: 75px;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  animation: rotateQuotes 24s infinite;
+  padding: 20px;
+}
+
+.quote:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.quote:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.quote:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.quote:nth-child(4) {
+  animation-delay: 12s;
+}
+
+.quote:nth-child(5) {
+  animation-delay: 16s;
+}
+
+.quote:nth-child(6) {
+  animation-delay: 20s;
+}
+
+@keyframes rotateQuotes {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 .experiment-card::before {
   content: '';
@@ -150,7 +268,7 @@ main section {
 }
 
 .difficulty, .duration {
-  background: #f0f0f0;
+  background: #3acc15;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -193,7 +311,7 @@ main section {
 
 .experiment:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 12px rgba(6, 236, 52, 0.778);
 }
 
 .experiment h3 {
@@ -366,14 +484,20 @@ header.nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background: rgb(0, 0, 0); 
     padding: 20px;
     z-index: 1000;
     height: 4rem;
+    border-radius: 30px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 50px green;
+    margin-bottom: 50px;
 }
 
 .nav .logo {
@@ -409,6 +533,7 @@ header.nav {
     transform: scale(1.1);
     color: rgb(67, 207, 232);
 }
+
 #video-container {
   position: fixed;
   top: 0;
