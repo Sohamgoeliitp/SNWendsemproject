@@ -29,10 +29,14 @@ body {
   justify-items: center;
   align-items: center;
   margin-top: 140px;
-  background-color: #fbe201;
-  width: 95%;
+  background-color: #000000;
+  width: 65%;
   border-radius: 20px;
-  margin-left: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  padding: 40px;
+  border: 2px solid white;
 }
 
 #vid {
@@ -42,7 +46,7 @@ body {
 }
 
 
-/* Enhanced Header with Animation */
+
 header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: #fff;
@@ -168,13 +172,13 @@ main section {
 }
 .quote-container {
   position: relative;
-  width: 90%;  
-  height: 300px;  
+  width: 80%;  
+  height: 250px;  
   overflow: hidden;
   margin: 50px auto;
   border: 2px solid #ddd;
   border-radius: 20px;
-  font-size: 38px;
+  font-size: 30px;
   font-style: italic;
   text-align: center;
   background-color: black;
@@ -499,7 +503,24 @@ header.nav {
     box-shadow: 0px 0px 50px green;
     margin-bottom: 50px;
 }
+nav.links {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Space between the elements */
+}
 
+._page {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Separator lines between the links */
+.separator {
+  width: 2px;       /* Thickness of the vertical line */
+  height: 2rem;     /* Length of the vertical line */
+  background-color: white;
+}
 .nav .logo {
     position: relative;
     font-size: 1.5rem;
