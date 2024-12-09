@@ -554,3 +554,11 @@ iframe {
   height: 100%;
   border: none;
 }
+
+
+.justwrapper {
+  background-color: #000;
+  height: 100vh;
+  padding: 20px 10% 10% 10%;
+  margin:  0 -10% -10% -10% ;
+}
