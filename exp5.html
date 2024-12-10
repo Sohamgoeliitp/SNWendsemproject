@@ -2,78 +2,85 @@
 <html lang="en">
 <head>
   <title>Science Fair Experiments</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <style>
-    h2 {
+    div > h2 {
         font-family: "Lucida Console", Monaco, monospace;
         font-size: 45px;
-        margin: 40px 0;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
     }
-    p, li {
+    p,li {
         font-size: 23px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h3 {
-        font-size: 30px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     video {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 20px auto;
+        margin-left: 180px;
     }
-    .experiment-image {
-        margin: 20px auto;
-        display: block;
-        border: 3px solid #ccc;
-        border-radius: 10px;
+    h3 {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    img {
+        border-radius: 30px;
     }
   </style>
 </head>
 <body>
-<div>
+<div class="exp5">
     <video autoplay muted loop class="video-background" height="550">
-        <source src="media/water_purification_video.mp4" type="video/mp4">
+        <source src="media/video 5 tqs.mp4" type="video/mp4">
     </video>
 </div>
-<section id="water-purification">
+<section>
+    <div>
     <div class="experiment-content">
-        <h2>Experiment 5: Water Purification</h2>
-        <div style="display: flex; gap: 50px; margin: 20px;">
+        <h2 class="autoShow">Experiment 5: Water Purification</h2>
+        <div style="display: flex;position: relative;gap: 50px;margin-left: 50px;">
             <div>
-                <h3>Clean Water with Nature’s Help!</h3>
-                <p>Did you know you can filter dirty water using simple household materials? In this experiment, you’ll create your own water purification system and learn how natural filters work to make water clean and safe.</p>
-                <h3>What You’ll Do</h3>
-                <p>You’re going to layer materials like sand, gravel, and charcoal to build a water filter. This experiment demonstrates how impurities are removed from water, mimicking processes used in real water treatment plants.</p>
+                <p class="autoShow">Did you know you can filter dirty water using simple household materials? In this experiment, you’ll create your own water purification system and learn how natural filters work to make water clean and safe.</p>
+                <h3 class="autoShow">What You’ll Do</h3>
+                <p class="autoShow">You’re going to layer materials like sand, gravel, and charcoal to build a water filter. This experiment demonstrates how impurities are removed from water, mimicking processes used in real water treatment plants.</p>
             </div>
-            <img src="images/water-purification-diagram.jpeg" alt="Water Purification Diagram" width="500" height="400">
-        </div>
-        <h3>What You’ll Need</h3>
-        <ul>
-            <li><strong>Plastic bottle:</strong> Cut the bottom off to use as the filter holder.</li>
-            <li><strong>Charcoal:</strong> Break it into small pieces to absorb impurities.</li>
-            <li><strong>Sand:</strong> Helps trap fine particles.</li>
-            <li><strong>Gravel:</strong> Removes larger debris.</li>
-            <li><strong>Cotton or coffee filter:</strong> Acts as the first barrier.</li>
-            <li><strong>Dirty water:</strong> Make your own by mixing soil or dirt with water.</li>
-            <li><strong>Clean container:</strong> To collect the purified water.</li>
-        </ul>
-        <div style="display: flex; gap: 50px; margin: 20px;">
-            <img src="images/water-purification-setup.jpeg" alt="Water Filter Setup" width="500" height="400">
             <div>
-                <h3>Steps to Follow</h3>
-                <ol>
+                <img class="autoShow" src="images/wat1.jpeg" alt="Water Purification Diagram" width="600" height="400">
+            </div>
+        </div>
+        <div style="display: flex;position: relative;gap: 70px;margin-left: 50px;">
+            <div>
+                <img class="autoShow" src="images/wat2.jpeg" alt="Water Filter Setup" width="700" height="400">
+            </div>
+            <div>
+                <h3 class="autoShow">What You’ll Need</h3>
+                <ul class="autoShow">
+                    <li><strong>Plastic bottle:</strong> Cut the bottom off to use as the filter holder.</li>
+                    <li><strong>Charcoal:</strong> Break it into small pieces to absorb impurities.</li>
+                    <li><strong>Sand:</strong> Helps trap fine particles.</li>
+                    <li><strong>Gravel:</strong> Removes larger debris.</li>
+                    <li><strong>Cotton or coffee filter:</strong> Acts as the first barrier.</li>
+                    <li><strong>Dirty water:</strong> Make your own by mixing soil or dirt with water.</li>
+                    <li><strong>Clean container:</strong> To collect the purified water.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="display: flex;position: relative;gap: 50px;margin-left: 50px;">
+            <div>
+                <h3 class="autoShow">Steps to Follow</h3>
+                <ol class="autoShow">
                     <li>
                         <strong>Prepare Your Filter:</strong>
-                        <ul>
+                        <ul style="list-style-type:disc">
                             <li>Cut the bottom off a plastic bottle. Turn it upside down so the neck is at the bottom.</li>
                             <li>Place a piece of cotton or a coffee filter inside the bottle neck.</li>
                         </ul>
                     </li>
                     <li>
                         <strong>Layer the Materials:</strong>
-                        <ul>
+                        <ul style="list-style-type:disc">
                             <li>Add a layer of gravel on top of the cotton.</li>
                             <li>Next, add a layer of sand, then a layer of charcoal.</li>
                             <li>Repeat the layers if you have extra materials.</li>
@@ -81,37 +88,45 @@
                     </li>
                     <li>
                         <strong>Test Your Filter:</strong>
-                        <ul>
+                        <ul style="list-style-type:disc">
                             <li>Pour dirty water slowly into the top of the filter.</li>
                             <li>Watch as clean water drips out the bottom into your container.</li>
                         </ul>
                     </li>
                 </ol>
             </div>
+            <div class="autoShow">
+                <img src="images/wat3.jpeg" alt="Filtered Water Result" width="400" height="400">
+            </div>
         </div>
-        <h3>What’s Happening?</h3>
-        <p>Here’s the science behind it:</p>
-        <ul>
-            <li><strong>Charcoal:</strong> Absorbs impurities and improves taste.</li>
-            <li><strong>Sand and Gravel:</strong> Remove larger and smaller particles through physical filtration.</li>
-            <li><strong>Cotton or Coffee Filter:</strong> Traps fine debris to prevent it from passing through.</li>
-        </ul>
-        <h3>Try These Fun Variations</h3>
-        <ul>
-            <li>Test other materials like sponges, cloth, or pebbles.</li>
-            <li>Compare the clarity of water filtered through different setups.</li>
-            <li>Research natural water purification methods and replicate them.</li>
-        </ul>
-        <h3>Tips for Success</h3>
-        <ul>
-            <li>Pour water slowly to avoid disturbing the filter layers.</li>
-            <li>Use fine sand for better filtration.</li>
-            <li>Don’t drink the filtered water without boiling or additional purification.</li>
-        </ul>
-        <p><strong>Why It’s Cool:</strong> This experiment demonstrates how natural resources can be used to purify water, an essential process for communities worldwide.</p>
-        <img src="images/filtered-water-result.jpeg" alt="Filtered Water Result" class="experiment-image" width="600">
+        <div style="display: flex;gap: 100px;margin-bottom: 50px;margin-left: 50px;">
+            <div>
+                <img src="images/wat4.jpeg" alt="Fun Variations" style="width: 600px; height: 400px;">
+            </div>
+            <div>
+                <h3>What’s Happening?</h3>
+                <p>Here’s the science behind it:</p>
+                <ul>
+                    <li><strong>Charcoal:</strong> Absorbs impurities and improves taste.</li>
+                    <li><strong>Sand and Gravel:</strong> Remove larger and smaller particles through physical filtration.</li>
+                    <li><strong>Cotton or Coffee Filter:</strong> Traps fine debris to prevent it from passing through.</li>
+                </ul>
+                <h3>Try These Fun Variations</h3>
+                <ul>
+                    <li>Test other materials like sponges, cloth, or pebbles.</li>
+                    <li>Compare the clarity of water filtered through different setups.</li>
+                    <li>Research natural water purification methods and replicate them.</li>
+                </ul>
+                <h3>Tips for Success</h3>
+                <ul>
+                    <li>Pour water slowly to avoid disturbing the filter layers.</li>
+                    <li>Use fine sand for better filtration.</li>
+                    <li>Don’t drink the filtered water without boiling or additional purification.</li>
+                </ul>
+                <p><strong>Why It’s Cool:</strong> This experiment demonstrates how natural resources can be used to purify water, an essential process for communities worldwide.</p>
+            </div>
+        </div>
     </div>
 </section>
 </body>
 </html>
-
