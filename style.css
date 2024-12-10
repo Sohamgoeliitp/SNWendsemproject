@@ -755,7 +755,7 @@ header.nav {
 nav.links {
   display: flex;
   align-items: center;
-  gap: 30px; /* Space between the elements */
+  gap: 30px; 
 }
 
 ._page {
@@ -764,10 +764,9 @@ nav.links {
   font-size: 1.2rem;
 }
 
-/* Separator lines between the links */
 .separator {
-  width: 2px;       /* Thickness of the vertical line */
-  height: 2rem;     /* Length of the vertical line */
+  width: 2px;       
+  height: 2rem;     
   background-color: white;
 }
 .nav .logo {
@@ -837,4 +836,37 @@ iframe {
   background-color: #000;
   height: 400px;
   width: 100%
+}
+
+.sc {
+  display: flex;
+  gap: 20px; 
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.sc img {
+  border-radius: 50%; 
+  width: 250px;       
+  height: 250px;      
+  object-position: center;
+  border: 5px solid #00ffff;
+}
+.sc img {
+  cursor: pointer;
+}
+.sc img:hover {
+  transform: scale(1.15);  
+  filter: brightness(1.2);
+}
+
+.sc p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white
+}
+.sc-item {
+  text-align: center;
+  width: 300px;
 }
