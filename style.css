@@ -901,3 +901,36 @@ iframe {
   text-align: center;
   width: 300px;
 }
+.image-container {
+  display: flex; /* Align images in a row */
+  justify-content: space-evenly; /* Space images evenly */
+  width: 90%; /* Optional: Control the width of the container */
+  max-width: 1200px; /* Optional: Set a maximum width */
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack the image and text */
+  align-items: center; /* Center align image and text */
+  text-align: center;
+}
+
+.image-wrapper img {
+  width: 250px; /* Circle diameter */
+  height: 250px; /* Circle diameter */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the circle */
+  border: 2px solid #ddd; /* Optional: Add a border around the circle */
+  margin-bottom: 10px; /* Space between image and text */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.image-wrapper img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.image-wrapper p {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+}
