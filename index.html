@@ -6,14 +6,12 @@
 </head>
 <body>
   <div id="video-container">
-    <iframe 
-      src="https://www.youtube.com/embed/T3rVaBx0KZQ?autoplay=1&mute=1&loop=1&playlist=T3rVaBx0KZQ" 
-      frameborder="0" 
-      height=""
-      allow="autoplay; encrypted-media" 
-      allowfullscreen>
-    </iframe>
+    <video controls autoplay loop muted width="720" height="480">
+      <source src="videos/sample-video.mp4" type="video/mp4">
+      <p>Your browser does not support HTML video. Here is a <a href="videos/sample-video.mp4">link to the video</a> instead.</p>
+    </video>
   </div>
+  
   <header class="nav">
     <nav class="links">
         <a href="#overview" class="_page">HOME</a>
