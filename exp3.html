@@ -1,78 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Experiment 3</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Science Fair Experiments</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    div > h2 {
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 45px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    p,li {
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 180px;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
 </head>
 <body>
-<section id="density-tower">
-    <h2>Experiment 3: Density Tower Experiment</h2>
-    <h3>Build a Tower of Liquids! </h3>
-    <img src="images/den1.jpg" alt="description of the image" width="400" height="400">
-    
-    <p>Ever wondered why some objects float while others sink? In this experiment, you’ll create a colorful tower using different liquids like honey, water, and oil. Each liquid has a different density, which allows them to stack in layers. You’ll also test how objects float or sink depending on their density. </p>
-    
-    <h3>What You’ll Do</h3>
-        <p>You’re going to stack common household liquids to form a tower. Then, you’ll drop small objects into the tower to see how density determines whether they sink, float, or settle in between.</p>
-    
-    <h3>What You’ll Need</h3>
-    <p>Here’s everything you’ll need for this experiment:</p>
-    <ul>
-      <li><strong>Clear Glass or Container:</strong> To see the layers clearly.</li>
-      <li><strong>Hoey or Syrup:</strong> The densest layer.</li>
-      <li><strong>Water:</strong> Add food colouring for fun.</li>
-      <li><strong>Cooking Oil:</strong> A lighter liquid for the upper layer.</li>
-      <li><strong>Optional Liquids:</strong> Rubbing alcohol, milk, or dish soap for more layers.</li>
-      <li><strong>Small Objects:</strong> Examples include a coin, grape, ping-pong ball, paperclip, and bead.</li>
-      <li><strong>Spoon or Pipette:</strong> To carefully add the liquids.</li>
-    </ul>
-    
-    <img src="images/den2.jpg" alt="description of the image" width="400" height="400">
-    <h3>Steps to Follow</h3>
-    <ol>
-      <li>
-        <strong>Prepare Your Liquids:</strong>
-        <p>Pour each liquid into a separate cup. You can add food coloring to water or rubbing alcohol to make them colorful and easy to identify. </p>
-      </li>
-      <li>
-        <strong>Layer the Liquids:</strong>
-        <ul>
-          <li>Start by pouring the heaviest liquid (honey or syrup) into the container.</li>
-          <li>Slowly and gently add the next liquid (like colored water) by pouring it over the back of a spoon.</li>
-          <li>Continue adding layers with lighter liquids, like oil, until your tower is complete.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Test Object Buoyancy:</strong>
-        <p>Drop small objects into the density tower one at a time. Watch where they settle in the layers and take note of their position. </p>
-      </li>
-    </ol>
-    <img src="images/den3.jpg" alt="description of the image" width="400" height="400">
-    <h3>What’s Happening?</h3>
-    <p>Here’s the science behind it:</p>
-    <ul>
-      <li>Density* refers to how much “stuff” is packed into a space. Heavier liquids like honey have more density and sink to the bottom, while lighter liquids like oil stay on top.</li>
-      <li>Objects float or sink based on their density compared to the liquid they are in. A ping-pong ball floats on oil but sinks in water, while a coin sinks to the bottom. </li>
-    </ul>
-    
-    <h3>Try These Fun Variations</h3>
-    <ul>
-      <li>Add more liquids, like dish soap or rubbing alcohol, to create more layers.</li>
-      <li>Predict where each object will settle before dropping it in.</li>
-      <li>Stir the liquids gently and watch them slowly separate back into layers over time.</li>
-    </ul>
-    
-    <h3>Tips for Success</h3>
-    <ul>
-        <li>⁠Pour liquids slowly to avoid mixing them. Using the back of a spoon helps control the flow.</li>  
-        <li>⁠Use clear containers for the best visual effect.</li>  
-        <li>⁠Clean up spills immediately to avoid sticky messes.</li>
-    </ul>
-    
-    <h3>Why It’s Cool</h3>
-    <p>This experiment is a fantastic way to explore the concept of density. It’s colorful, easy to set up, and helps you understand why some objects float while others sink. Plus, it’s a great science fair project that’s sure to grab attention! </p>
-    <img src="images/den4.jpg" alt="description of the image" width="400" height="400">
-    <p>Give it a try and create your own density tower!</p>
-  </section>
+<div class="exp1">
+    <video autoplay muted loop class="video-background" height="550">
+        <source src="media/video3.mp4" type="video/mp4">
+    </video>
+</div>
+<section>
+    <div>
+        <div class="experiment-content">
+            <h2 class="autoShow">Experiment 3: Density Tower Experiment</h2>
+            <div style="display: flex; position: relative; gap: 50px; margin-left: 50px;">
+                <div>
+                    <p class="autoShow">Ever wondered why some objects float while others sink? In this experiment, you’ll create a colorful tower using different liquids like honey, water, and oil. Each liquid has a different density, which allows them to stack in layers. You’ll also test how objects float or sink depending on their density.</p>
+
+                    <h3 class="autoShow">What You’re Making</h3>
+                    <p class="autoShow">You’re going to stack common household liquids to form a tower. Then, you’ll drop small objects into the tower to see how density determines whether they sink, float, or settle in between.</p>
+                </div>
+                <div><img class="autoShow" src="images/density1.png" alt="Density Tower Illustration" width="600" height="400"></div>
+            </div>
+            <div style="display: flex; position: relative; gap: 70px;">
+                <div>
+                    <img class="autoShow" src="images/density2.png" alt="Density Layers" width="700" height="400">
+                </div>
+                <div>
+                    <h3 class="autoShow">What You Need</h3>
+                    <ul class="autoShow">
+                        <li><strong>Clear Glass or Container:</strong> To see the layers clearly.</li>
+                        <li><strong>Honey or Syrup:</strong> The densest layer.</li>
+                        <li><strong>Water:</strong> Add food coloring for fun.</li>
+                        <li><strong>Cooking Oil:</strong> A lighter liquid for the upper layer.</li>
+                        <li><strong>Optional Liquids:</strong> Rubbing alcohol, milk, or dish soap for more layers.</li>
+                        <li><strong>Small Objects:</strong> Examples include a coin, grape, ping-pong ball, paperclip, and bead.</li>
+                        <li><strong>Spoon or Pipette:</strong> To carefully add the liquids.</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex; position: relative; gap: 50px; margin-left: 50px;">
+                <div>
+                    <h3 class="autoShow">Procedure</h3>
+                    <ol class="autoShow">
+                        <li>
+                            <strong>Prepare Your Liquids:</strong>
+                            <ul style="list-style-type: disc;">
+                                <li>Pour each liquid into a separate cup. Add food coloring for more vibrant layers.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Layer the Liquids:</strong>
+                            <ul style="list-style-type: disc;">
+                                <li>Start with the heaviest liquid (honey or syrup) at the bottom.</li>
+                                <li>Slowly add the next liquid (like water) by pouring over the back of a spoon.</li>
+                                <li>Add the lighter liquids (like oil) on top to complete the tower.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Test Object Buoyancy:</strong>
+                            <ul style="list-style-type: disc;">
+                                <li>Drop small objects into the tower and observe where they settle.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <img src="images/density3.png" alt="Density Experiment" width="500" height="400">
+                </div>
+            </div>
+            <br>
+            <div style="display: flex; gap: 100px; margin-bottom: 50px;">
+                <div>
+                    <img src="images/density4.png" alt="Density Tower" style="width: 600px; height: 600px; margin-top: 30px; margin-left: 40px;">
+                </div>
+                <div>
+                    <h3>What’s Happening?</h3>
+                    <p>Here’s the science part:</p>
+                    <ul>
+                        <li>Density is how much “stuff” is packed into a space. Heavier liquids like honey sink to the bottom, while lighter liquids like oil float on top.</li>
+                        <li>Objects float or sink based on their density compared to the liquid they’re in.</li>
+                    </ul>
+
+                    <h3>Try These Fun Variations</h3>
+                    <ul>
+                        <li>Add more liquids to create additional layers.</li>
+                        <li>Predict where objects will settle before dropping them in.</li>
+                        <li>Gently stir the liquids and watch them separate again over time.</li>
+                    </ul>
+
+                    <h3>Quick Tips</h3>
+                    <ul>
+                        <li>Pour liquids slowly to avoid mixing them.</li>
+                        <li>Use clear containers for the best effect.</li>
+                        <li>Clean up spills immediately to avoid sticky messes.</li>
+                    </ul>
+
+                    <p><strong>Why It’s Awesome:</strong> This experiment is colorful, fun, and educational. It’s perfect for learning about density and buoyancy!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
