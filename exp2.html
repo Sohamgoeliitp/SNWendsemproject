@@ -3,91 +3,128 @@
 <head>
   <title>Science Fair Experiments</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    div > h2 {
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 45px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    p, li {
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 180px;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
 </head>
 <body>
-    <section id="lemon-battery">
-        <h2>Experiment 2: Lemon Battery Experiment</h2>
-        <h3>Make Electricity with Lemons!</h3>
-        
-        <p>Did you know you can use lemons to create electricity? In this fun experiment, you’ll learn how to turn ordinary lemons into tiny batteries that can power a small device, like an LED light or a digital clock.</p>
-        
-        <img src="images/lem1.jpg" alt="description of the image" width="400" height="400">
-
-        <h3>What You’ll Do</h3>
-        <p>You’re going to use the acidic juice inside lemons to create a simple electrical circuit. The reaction between copper, zinc, and lemon juice generates electricity. This will help you understand how real batteries work!</p>
-        
-        <h3>What You’ll Need</h3>
-        <ul>
-          <li><strong>Lemons:</strong> 2–3 fresh ones (the juicier, the better).</li>
-          <li><strong>Copper coins or strips:</strong> These act as the positive terminal of the battery.</li>
-          <li><strong>Zinc nails or screws:</strong> These are the negative terminal.</li>
-          <li><strong>Wires or alligator clips:</strong> To connect the lemons together.</li>
-          <li><strong>A small LED light or clock:</strong> To show the battery in action.</li>
-          <li><strong>A knife or scissors:</strong> To make small cuts in the lemons (get an adult’s help).</li>
-        </ul>
-        
-        <img src="images/lem2.jpg" alt="description of the image" width="400" height="400">
-
-        <h3>Steps to Follow</h3>
-        <ol>
-          <li>
-            <strong>Prepare Your Lemons:</strong>
-            <ul>
-              <li>Roll the lemons on a table to release their juice inside.</li>
-              <li>Make two small cuts in each lemon—one for the copper piece and one for the zinc nail.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Set Up Your Electrodes:</strong>
-            <ul>
-              <li>Insert a copper coin or strip into one cut and a zinc nail into the other.</li>
-              <li>Ensure they don’t touch inside the lemon.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Connect the Lemons:</strong>
-            <ul>
-              <li>Use wires or alligator clips to link the zinc nail in one lemon to the copper in the next.</li>
-              <li>This creates a chain of lemons.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Power Something Small:</strong>
-            <ul>
-              <li>Attach the free zinc nail and copper strip at the ends of your lemon chain to an LED light or clock.</li>
-              <li>Watch as your lemon battery brings it to life!</li>
-            </ul>
-          </li>
-        </ol>
-        
-        <img src="images/lem3.jpg" alt="description of the image" width="400" height="400">
-        <h3>What’s Happening?</h3>
-        <p>Here’s the science behind it:</p>
-        <ul>
-          <li>Lemons have citric acid, which acts like a liquid that helps electricity flow (called an electrolyte).</li>
-          <li>The zinc reacts with the acid and releases electrons (tiny particles that create electricity).</li>
-          <li>The copper collects these electrons, and when they flow through the wires, they create electricity to power your device.</li>
-        </ul>
-        
-        <h3>Try These Fun Variations</h3>
-        <ul>
-          <li>Test other fruits or vegetables (like potatoes or oranges) to see if they work as batteries.</li>
-          <li>Add more lemons to your chain and see if you can power a bigger device.</li>
-          <li>Use a multimeter to measure how much voltage your battery generates.</li>
-        </ul>
-        
-        <h3>Tips for Success</h3>
-        <ul>
-          <li>Make sure the copper and zinc don’t touch inside the lemon—it won’t work if they do.</li>
-          <li>Fresh, juicy lemons produce more electricity.</li>
-          <li>Be careful when using sharp objects and ask an adult for help.</li>
-        </ul>
-        
-        <h3>Why It’s Cool</h3>
-        <p>This experiment is a simple way to understand how electricity and batteries work. Plus, it’s an exciting project to show off at school or to friends and family. Who knew lemons could do so much?</p>
-        
-        <p>Give it a try and see the power of citrus for yourself!</p>
-        <img src="images/lem4.jpg" alt="description of the image" width="400" height="400">
-    </section>
+<div class="exp2">
+    <video autoplay muted loop class="video-background" height="550">
+        <source src="media/video 2 exp.mp4" type="video/mp4">
+    </video>
+</div>
+<section>
+    <div>
+        <div class="experiment-content">
+            <h2 class="autoShow">Experiment 2: Lemon Battery Experiment</h2>
+            <div style="display: flex; position: relative; gap: 50px; margin-left: 50px;">
+                <div>
+                    <p class="autoShow">Did you know you can use lemons to create electricity? In this fun experiment, you’ll learn how to turn ordinary lemons into tiny batteries that can power a small device, like an LED light or a digital clock.</p>
+                    
+                    <h3 class="autoShow">What You’ll Do</h3>
+                    <p class="autoShow">You’re going to use the acidic juice inside lemons to create a simple electrical circuit. The reaction between copper, zinc, and lemon juice generates electricity. This will help you understand how real batteries work!</p>
+                </div>
+                <div><img class="autoShow" src="images/lemon-battery.png" alt="Lemon Battery Setup" width="600" height="400"></div>
+            </div>
+            <div style="display: flex; position: relative; gap: 70px;">
+                <div>
+                    <h3 class="autoShow">What You’ll Need</h3>
+                    <ul class="autoShow">
+                        <li><strong>Lemons:</strong> 2–3 fresh ones (the juicier, the better).</li>
+                        <li><strong>Copper coins or strips:</strong> These act as the positive terminal of the battery.</li>
+                        <li><strong>Zinc nails or screws:</strong> These are the negative terminal.</li>
+                        <li><strong>Wires or alligator clips:</strong> To connect the lemons together.</li>
+                        <li><strong>A small LED light or clock:</strong> To show the battery in action.</li>
+                        <li><strong>A knife or scissors:</strong> To make small cuts in the lemons (get an adult’s help).</li>
+                    </ul>
+                </div>
+                <div><img class="autoShow" src="images/lemon-setup.png" alt="Materials for Lemon Battery" width="500" height="400"></div>
+            </div>
+            <div class="autoShow" style="display: flex; position: relative; gap: 50px; margin-left: 50px;">
+                <div>
+                    <h3 class="autoShow">Steps to Follow</h3>
+                    <ol class="autoShow">
+                        <li>
+                            <strong>Prepare Your Lemons:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Roll the lemons on a table to release their juice inside.</li>
+                                <li>Make two small cuts in each lemon—one for the copper piece and one for the zinc nail.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Set Up Your Electrodes:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Insert a copper coin or strip into one cut and a zinc nail into the other.</li>
+                                <li>Ensure they don’t touch inside the lemon.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Connect the Lemons:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Use wires or alligator clips to link the zinc nail in one lemon to the copper in the next.</li>
+                                <li>This creates a chain of lemons.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Power Something Small:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Attach the free zinc nail and copper strip at the ends of your lemon chain to an LED light or clock.</li>
+                                <li>Watch as your lemon battery brings it to life!</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div class="autoShow"><img src="images/lemon-test.png" alt="Lemon Battery in Action" width="500" height="400"></div>
+            </div>
+            <br>
+            <div class="autoShow" style="display: flex; gap: 100px; margin-bottom: 50px;">
+                <div class="autoShow"><img src="images/lemon-circuit.png" alt="Lemon Circuit Result" style="width: 600px; height:600px; margin-top: 30px; margin-left: 40px;"></div>
+                <div class="autoShow">
+                    <h3>What’s Happening?</h3>
+                    <p>Here’s the science behind it:</p>
+                    <ul>
+                        <li>Lemons have citric acid, which acts like a liquid that helps electricity flow (called an electrolyte).</li>
+                        <li>The zinc reacts with the acid and releases electrons (tiny particles that create electricity).</li>
+                        <li>The copper collects these electrons, and when they flow through the wires, they create electricity to power your device.</li>
+                    </ul>
+                    <h3>Try These Fun Variations</h3>
+                    <ul>
+                        <li>Test other fruits or vegetables (like potatoes or oranges) to see if they work as batteries.</li>
+                        <li>Add more lemons to your chain and see if you can power a bigger device.</li>
+                        <li>Use a multimeter to measure how much voltage your battery generates.</li>
+                    </ul>
+                    <h3>Tips for Success</h3>
+                    <ul>
+                        <li>Make sure the copper and zinc don’t touch inside the lemon—it won’t work if they do.</li>
+                        <li>Fresh, juicy lemons produce more electricity.</li>
+                        <li>Be careful when using sharp objects and ask an adult for help.</li>
+                    </ul>
+                    <p><strong>Why It’s Cool:</strong> This experiment is a simple way to understand how electricity and batteries work. Plus, it’s an exciting project to show off at school or to friends and family. Who knew lemons could do so much?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
+
