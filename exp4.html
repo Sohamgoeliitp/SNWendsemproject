@@ -3,52 +3,119 @@
 <head>
   <title>Science Fair Experiments</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    div > h2 {
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 45px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    p, li {
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 180px;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
 </head>
 <body>
-    <section id="electromagnet-test">
+<div class="exp4">
+    <video autoplay muted loop class="video-background" height="550">
+        <source src="media/video_4_exp.mp4" type="video/mp4">
+    </video>
+</div>
+<section>
+    <div>
         <div class="experiment-content">
-          <h2>Experiment 4: Electromagnet Strength Test</h2>
-          <h3>Explore Magnetic Power!</h3>
-          <p>Have you ever wondered how magnets can be made with electricity? In this experiment, you’ll create an electromagnet using a nail, wire, and battery. By changing the number of wire coils around the nail, you’ll test how it affects the magnet’s strength.</p>
-          <img src="images/mag1.jpeg" alt="description of the image" width="400" height="400">
-          <h3>What You’ll Do</h3>
-          <p>Build a simple electromagnet and test how its strength changes based on the number of wire coils wrapped around the nail. This will give you insight into the relationship between electricity and magnetism.</p>
-          <img src="images/mag2.jpeg" alt="description of the image" width="400" height="400">
-          <h3>What You’ll Need</h3>
-          <ul>
-            <li>Iron nail (3–4 inches long)</li>
-            <li>Insulated copper wire (3–4 feet long)</li>
-            <li>Battery (D-cell or 9V)</li>
-            <li>Paper clips or small metal objects</li>
-            <li>Electrical tape</li>
-          </ul>
-          <h3>Steps to Follow</h3>
-          <ol>
-            <li><strong>Wrap the Wire Around the Nail:</strong> Coil the wire tightly around the nail, leaving 3 inches free on each end.</li>
-            <li><strong>Connect to the Battery:</strong> Strip insulation from the wire ends and attach them to the battery terminals.</li>
-            <li><strong>Test Your Electromagnet:</strong> Use the magnet to pick up paper clips or metal objects.</li>
-            <li><strong>Experiment with More Coils:</strong> Add more coils and observe changes in magnetic strength.</li>
-          </ol>
-          <img src="images/mag3.jpeg" alt="description of the image" width="400" height="400">
-          <h3>What’s Happening?</h3>
-          <p>Electricity flowing through the wire creates a magnetic field, turning the nail into an electromagnet. More coils increase the magnetic field's concentration and strength.</p>
-          <img src="images/mag4.jpeg" alt="description of the image" width="400" height="400">
-          <h3>Try These Fun Variations</h3>
-          <ul>
-            <li>Test different battery voltages.</li>
-            <li>Use nails of different sizes.</li>
-            <li>Measure magnet strength with a spring scale.</li>
-          </ul>
-          <h3>Tips for Success</h3>
-          <ul>
-            <li>Use fresh batteries for better results.</li>
-            <li>Ensure coils are tightly wrapped.</li>
-            <li>Disconnect the battery when not in use.</li>
-          </ul>
-          <p><strong>Why It’s Cool:</strong></p>
-          <img src="images/mag5.jpeg" alt="description of the image" width="400" height="400">
-            <p>Learn how electricity creates magnetic fields, a principle used in many modern technologies!</p>
+            <h2 class="autoShow">Experiment 4: Electromagnet Strength Test</h2>
+            <div style="display: flex; position: relative; gap: 50px; margin-left: 50px;">
+                <div>
+                    <p class="autoShow">Have you ever wondered how magnets can be made with electricity? In this experiment, you’ll create an electromagnet using a nail, wire, and battery. By changing the number of wire coils around the nail, you’ll test how it affects the magnet’s strength.</p>
+                    
+                    <h3 class="autoShow">What You’ll Do</h3>
+                    <p class="autoShow">Build a simple electromagnet and test how its strength changes based on the number of wire coils wrapped around the nail. This will give you insight into the relationship between electricity and magnetism.</p>
+                </div>
+                <div><img class="autoShow" src="images/electromagnet.png" alt="Electromagnet Setup" width="600" height="400"></div>
+            </div>
+            <div style="display: flex; position: relative; gap: 70px;">
+                <div>
+                    <h3 class="autoShow">What You’ll Need</h3>
+                    <ul class="autoShow">
+                        <li>Iron nail (3–4 inches long)</li>
+                        <li>Insulated copper wire (3–4 feet long)</li>
+                        <li>Battery (D-cell or 9V)</li>
+                        <li>Paper clips or small metal objects</li>
+                        <li>Electrical tape</li>
+                    </ul>
+                </div>
+                <div><img class="autoShow" src="images/electromagnet-materials.png" alt="Materials for Electromagnet" width="500" height="400"></div>
+            </div>
+            <div class="autoShow" style="display: flex; position: relative; gap: 50px; margin-left: 50px;">
+                <div>
+                    <h3 class="autoShow">Steps to Follow</h3>
+                    <ol class="autoShow">
+                        <li>
+                            <strong>Wrap the Wire Around the Nail:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Coil the wire tightly around the nail, leaving 3 inches free on each end.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Connect to the Battery:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Strip insulation from the wire ends and attach them to the battery terminals.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Test Your Electromagnet:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Use the magnet to pick up paper clips or metal objects.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Experiment with More Coils:</strong>
+                            <ul style="list-style-type:disc">
+                                <li>Add more coils and observe changes in magnetic strength.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div class="autoShow"><img src="images/electromagnet-test.png" alt="Electromagnet Test in Action" width="500" height="400"></div>
+            </div>
+            <br>
+            <div class="autoShow" style="display: flex; gap: 100px; margin-bottom: 50px;">
+                <div class="autoShow"><img src="images/electromagnet-result.png" alt="Electromagnet Results" style="width: 600px; height:600px; margin-top: 30px; margin-left: 40px;"></div>
+                <div class="autoShow">
+                    <h3>What’s Happening?</h3>
+                    <p>Electricity flowing through the wire creates a magnetic field, turning the nail into an electromagnet. More coils increase the magnetic field's concentration and strength.</p>
+                    
+                    <h3>Try These Fun Variations</h3>
+                    <ul>
+                        <li>Test different battery voltages.</li>
+                        <li>Use nails of different sizes.</li>
+                        <li>Measure magnet strength with a spring scale.</li>
+                    </ul>
+                    
+                    <h3>Tips for Success</h3>
+                    <ul>
+                        <li>Use fresh batteries for better results.</li>
+                        <li>Ensure coils are tightly wrapped.</li>
+                        <li>Disconnect the battery when not in use.</li>
+                    </ul>
+                    <p><strong>Why It’s Cool:</strong> Learn how electricity creates magnetic fields, a principle used in many modern technologies!</p>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 </body>
 </html>
